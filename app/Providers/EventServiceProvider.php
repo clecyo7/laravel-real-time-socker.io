@@ -31,7 +31,7 @@ class EventServiceProvider extends ServiceProvider
             SendEmailVerificationNotification::class,
         ],
         PostCreated::class => [
-            NotifyUsersNewPostCreated::class,
+            NotifyUsersNewPostCreated::class,  
         ]
     ];
 
@@ -43,5 +43,6 @@ class EventServiceProvider extends ServiceProvider
     public function boot()
     {
         Post::observe(PostObserver::class);
+        
     }
 }

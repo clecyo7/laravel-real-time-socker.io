@@ -18,6 +18,7 @@ class PostObserver
         event(new PostCreated($post));
     }
 
+    
     /**
      * Handle the Post "updated" event.
      *

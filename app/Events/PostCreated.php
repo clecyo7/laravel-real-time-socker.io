@@ -36,7 +36,8 @@ class PostCreated implements ShouldBroadcast
      */
     public function broadcastOn()
     {
-        return new Channel('post-created');
+        return new PrivateChannel('channel-name');
+     //   return new Channel('post-created');
     }
 
     public function broadcastWith()
@@ -49,3 +50,4 @@ class PostCreated implements ShouldBroadcast
         ];
     }
 }
+
