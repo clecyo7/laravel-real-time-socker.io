@@ -9,6 +9,7 @@ use Illuminate\Support\Str;
 Route::get('/create-post', function () {
     $user = User::first();
 
+
     $post = $user->posts()->create([
         'title' => Str::random(150),
         'body' => Str::random(400),
