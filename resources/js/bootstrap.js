@@ -37,3 +37,4 @@ window.Echo = new Echo({
 })
 
 require('./Echo')
+
