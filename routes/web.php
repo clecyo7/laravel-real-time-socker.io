@@ -17,7 +17,7 @@ Route::get('/create-post', function () {
 
     // event(new PostCreated($post));
 
-    
+
     return 'ok';
 });
 

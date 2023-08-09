@@ -8,3 +8,6 @@ window.Echo.channel('laravel_database_post-created')
 
                 Vue.$vToastify.success(`Título do post ${e.post.name}`, 'Novo Post')
             })
+
+
+            
