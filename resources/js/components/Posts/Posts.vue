@@ -11,6 +11,7 @@
     </div>
 </template>
 
+
 <script>
 import axios from 'axios'
 import Bus from '../../bus'

@@ -5,3 +5,4 @@
 @section('content')
 <posts-component/>
 @endsection
+
