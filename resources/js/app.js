@@ -10,3 +10,4 @@ Vue.component('posts-component', require('./components/Posts/Posts.vue').default
 const app = new Vue({
     el: '#app'
 })
+

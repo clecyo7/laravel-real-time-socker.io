@@ -10,4 +10,4 @@ window.Echo.channel('laravel_database_post-created')
             })
 
 
-            
+
